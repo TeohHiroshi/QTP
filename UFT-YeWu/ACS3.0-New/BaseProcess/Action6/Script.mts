@@ -152,6 +152,7 @@ WriteLogs("================临时收费规则信息修改开始=================
 wait 1
 Dim tempRuleName
 tempRuleName=Datatable.GetSheet("临时收费规则").GetParameter("规则名称").ValueByRow(1)
+SwfWindow("收费规则管理").Close
 
 '数据表导出本地Excel
 ExportExcel()

@@ -77,7 +77,7 @@ computer=Datatable.GetSheet("通道管理").GetParameter("管理电脑").ValueBy
 i=17
 basenum=8 @@ hightlight id_;_264064_;_script infofile_;_ZIP::ssf56.xml_;_
 '==============================================================================================================
-'管理电脑--循环读取Combox内容逻辑判断
+'管理电脑--循环读取Combox内容逻辑判断 @@ hightlight id_;_1640962_;_script infofile_;_ZIP::ssf124.xml_;_
 Do While True
 	SwfWindow("停车场通道管理").SwfWindow("保存停车场通道").SwfObject("cmbMStation").Click
 '判断是否处于边界处 @@ hightlight id_;_1509658_;_script infofile_;_ZIP::ssf79.xml_;_

@@ -5,3 +5,5 @@ RunAction "相机管理", oneIteration
 RunAction "操作员管理", oneIteration
 RunAction "临时收费规则", oneIteration
 RunAction "长期收费规则", oneIteration
+RunAction "进场业务管理", oneIteration
+RunAction "出场业务管理", oneIteration

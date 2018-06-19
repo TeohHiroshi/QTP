@@ -34,7 +34,7 @@ Do While True
 	SwfWindow("操作员管理").SwfWindow("操作员编辑").SwfObject("cmbRole").Click
 '判断是否处于边界处 @@ hightlight id_;_1509658_;_script infofile_;_ZIP::ssf79.xml_;_
 	If basenum>110 Then @@ hightlight id_;_8917212_;_script infofile_;_ZIP::ssf45.xml_;_
-		SwfWindow("区域管理").SwfWindow("区域设置").SwfWindow("SwfWindow").SwfObject("SwfObject_2").Click 10,110
+		SwfWindow("区域管理").SwfWindow("区域设置").SwfWindow("SwfWindow").SwfObject("SwfObject").Click 10,110
 		SwfWindow("操作员管理").SwfWindow("操作员编辑").SwfWindow("SwfWindow").SwfObject("SwfObject").Click 60,basenum-i
 	Else
 		SwfWindow("操作员管理").SwfWindow("操作员编辑").SwfWindow("SwfWindow").SwfObject("SwfObject").Click 60,basenum
@@ -126,7 +126,7 @@ Do While True
 	SwfWindow("操作员管理").SwfWindow("操作员编辑").SwfObject("cmbRole").Click
 '判断是否处于边界处 @@ hightlight id_;_1509658_;_script infofile_;_ZIP::ssf79.xml_;_
 	If basenum>110 Then @@ hightlight id_;_8917212_;_script infofile_;_ZIP::ssf45.xml_;_
-		SwfWindow("区域管理").SwfWindow("区域设置").SwfWindow("SwfWindow").SwfObject("SwfObject_2").Click 10,110
+		SwfWindow("区域管理").SwfWindow("区域设置").SwfWindow("SwfWindow").SwfObject("SwfObject").Click 10,110
 		SwfWindow("操作员管理").SwfWindow("操作员编辑").SwfWindow("SwfWindow").SwfObject("SwfObject").Click 60,basenum-i
 	Else
 		SwfWindow("操作员管理").SwfWindow("操作员编辑").SwfWindow("SwfWindow").SwfObject("SwfObject").Click 60,basenum

@@ -1,5 +1,4 @@
-﻿WriteLogs("初始化登录操作！")
-SystemUtil.CloseProcessByName("ParkingVideo_Login.exe")
+﻿SystemUtil.CloseProcessByName("ParkingVideo_Login.exe")
 Wait 1
 Dim Address
 Address=Datatable.GetSheet("Global").GetParameter("Address").ValueByRow(1)
@@ -31,8 +30,8 @@ End If
 '===================================================================================
 '系统管理员权限登录 @@ hightlight id_;_460716_;_script infofile_;_ZIP::ssf13.xml_;_
 wait 2
-SwfWindow("登录界面").SwfEdit("SwfEdit").Set "admin"
-SwfWindow("登录界面").SwfEdit("SwfEdit_2").SetSecure "5924e4b99935029c317c8fdbcdda0b6b"
+SwfWindow("登录界面").SwfEdit("SwfEdit").Set "lfzdh"
+SwfWindow("登录界面").SwfEdit("SwfEdit_2").SetSecure "lfzdh"
 wait 1
 
 SwfWindow("登录界面").SwfObject("登录").Click

@@ -19,6 +19,8 @@ Action0=Action0\Script.mts
 操作员管理=Action5\Script.mts
 临时收费规则=Action6\Script.mts
 长期收费规则=Action8\Script.mts
+进场业务管理=Action9\Script.mts
+出场业务管理=Action10\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -78,3 +80,9 @@ Action6\ObjectRepository.bdb=
 Action8\Script.mts=
 Action8\Resource.mtr=
 Action8\ObjectRepository.bdb=
+Action9\Script.mts=
+Action9\Resource.mtr=
+Action9\ObjectRepository.bdb=
+Action10\Script.mts=
+Action10\Resource.mtr=
+Action10\ObjectRepository.bdb=
